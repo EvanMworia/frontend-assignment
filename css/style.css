@@ -1,0 +1,91 @@
+body {
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+
+.tabs {
+    position: relative;
+    top: 0px;
+    left: 75px;
+    margin-bottom: 50px;
+    /* border: solid; */
+}
+
+.tabs span {
+    position: absolute;
+    top: 0px;
+    right: 100px;
+    margin: 5px;
+}
+
+.tabs button {
+    padding: 10px;
+    border-radius: 15%;
+    background-color: transparent;
+}
+
+.tabs li {
+    display: inline;
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    /* border: solid; */
+}
+
+.container1 {
+    margin-left: 50px;
+    width: 50%;
+    /* border: solid; */
+    float: left;
+    margin-bottom: 50px;
+}
+
+.container1 .title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.container1 p {
+    font-size: 20px;
+}
+
+.container1 button {
+    padding: 10px;
+    border-radius: 15%;
+    background-color: transparent;
+}
+
+.container2 {
+    width: 40%;
+    height: 500px;
+    /* border: solid; */
+    float: right;
+}
+
+.container2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+footer {
+    display: inline;
+    top: 0px;
+    left: 75px;
+    margin-bottom: 50px;
+    /* border: solid; */
+}
+
+footer li {
+    display: inline;
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    /* border: solid; */
+}
