@@ -1,0 +1,101 @@
+ .body {
+     margin-top: 25px;
+ }
+ 
+ .container1 {
+     /* position: absolute; */
+     left: 25px;
+     float: left;
+     margin-left: 150px;
+     margin-top: 100px;
+     height: 300px;
+     width: 300px;
+     /* border: solid; */
+ }
+ 
+ .container1 h1 {
+     color: rgb(81, 33, 82);
+     font-size: 40px;
+ }
+ 
+ .container1 p {
+     color: rgb(135, 123, 133);
+     font-size: 12px;
+ }
+ 
+ .container2 {
+     top: 25px;
+     float: left;
+     margin-left: 150px;
+     margin-top: 100px;
+     height: 280px;
+     width: 425px;
+     /* border: solid; */
+ }
+ 
+ .container2 .stars {
+     height: 60px;
+     width: 325px;
+     margin-top: 20px;
+     /* border: solid; */
+ }
+ 
+ #second {
+     margin-left: 15px;
+     padding-left: 15px;
+ }
+ 
+ #third {
+     margin-left: 30px;
+     padding-left: 30px;
+ }
+ 
+ .container3 {
+     float: left;
+     height: 280px;
+     width: 1000px;
+     margin-left: 100px;
+     /* border: solid; */
+ }
+ 
+ .container3 li {
+     /* display: inline; */
+     display: inline;
+     list-style-type: none;
+     padding: 10px;
+     margin: 10px;
+ }
+ 
+ .container3 .reviews {
+     display: inline-block;
+     height: 150px;
+     width: 250px;
+     /* border: solid; */
+     background-color: rgb(81, 31, 80);
+     color: aliceblue;
+     font-family: 'Anton', sans-serif;
+     font-family: 'Poppins', sans-serif;
+     font-family: 'Roboto', sans-serif;
+     font-size: 12px;
+     border-radius: 5%;
+ }
+ 
+ .container3 .name {
+     font-weight: bold;
+     margin-left: 30%;
+ }
+ 
+ .container3 .reviews .status {
+     color: rgb(186, 90, 149);
+     margin-left: 30%;
+ }
+ 
+ #one {
+     margin-top: 10px;
+     padding-top: 10px;
+ }
+ 
+ #two {
+     margin-top: 20px;
+     padding-top: 20px;
+ }
