@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button:hover {
+    cursor: pointer;
+    background: scroll;
+}
+
+.main {
+    border: solid purple;
+    background: url('./images/backgroundimg.png');
+}
+
+header {
+    border: 3px solid red;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.logo {
+    border: solid black;
+    font-size: 25px;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.nav-bar ul {
+    border: solid black;
+    list-style-type: none;
+}
+
+.nav-bar li {
+    border: solid black;
+    display: inline;
+}
+
+.nav-bar .login-register {
+    padding-left: 350px;
+}
+
+.login-register button {
+    padding: 10px 25px;
+    color: white;
+}
+
+.login {
+    border: none;
+    background: none;
+    margin-right: 10px;
+}
+
+.register {
+    background: rgb(35, 166, 240);
+    border-radius: 5px;
+}
+
+
+/* HEADER STYLES END HERE */
+
+.main__h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.title {
+    font-size: 60px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.title__paragraph {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.main__h1 div {
+    padding-bottom: 120px;
+}
+
+.title__buttons button {
+    color: white;
+    padding: 10px;
+    border-radius: 35px;
+    padding: 10px 25px;
+}
+
+.get-quote-button {
+    background: rgb(35, 166, 240);
+    border: none;
+}
+
+.learn-more-button {
+    background: none;
+    border: 1px solid white;
+}
+
+
+/* END OF TITLE CONTENT  */
+
+.cards-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card {}
