@@ -10,13 +10,13 @@ button:hover {
 }
 
 .main {
-    border: solid purple;
+    /* border: solid purple; */
     background: url('./images/backgroundimg.png');
     background-size: cover;
 }
 
 header {
-    border: 3px solid red;
+    /* border: 3px solid red; */
     padding-top: 30px;
     padding-left: 100px;
     padding-right: 100px;
@@ -24,7 +24,7 @@ header {
 }
 
 .logo {
-    border: solid black;
+    /* border: solid black; */
     font-size: 25px;
     margin-left: 30px;
     margin-right: 100px;
@@ -36,12 +36,12 @@ header {
 }
 
 .nav-bar ul {
-    border: solid black;
+    /* border: solid black; */
     list-style-type: none;
 }
 
 .nav-bar li {
-    border: solid black;
+    /* border: solid black; */
     display: inline;
     margin: 0px 7px;
 }
@@ -156,7 +156,7 @@ header {
 /* END OF CARDS LAYERING ON BACKGROUND PHOTO */
 
 .main__mid-section {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -166,7 +166,7 @@ header {
 }
 
 .mid-section-cards {
-    border: solid black;
+    /* border: solid black; */
     justify-content: space-evenly;
     text-align: center;
     height: 150px;
@@ -219,7 +219,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: solid red;
+    /* border: solid red; */
     padding-top: 100px;
 }
 
@@ -230,7 +230,7 @@ header {
 }
 
 .email-container {
-    border: solid black;
+    /* border: solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -238,7 +238,7 @@ header {
 }
 
 .email__input {
-    border: solid red;
+    /* border: solid red; */
     border-radius: 2px;
     display: flex;
     height: 100px;
@@ -265,7 +265,7 @@ header {
 }
 
 .email__input label {
-    border: solid black;
+    /* border: solid black; */
     margin-right: 200px;
     font-weight: bolder;
     font-size: larger;
@@ -324,6 +324,18 @@ header {
     border-radius: 5px;
     color: white;
     background-color: rgb(35, 166, 240);
+}
+
+.branches-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: rgb(11, 23, 49);
+}
+
+.appointment-form {
+    display: flex;
 }
 
 
