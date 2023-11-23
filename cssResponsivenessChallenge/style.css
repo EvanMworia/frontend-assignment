@@ -12,6 +12,7 @@ button:hover {
 .main {
     border: solid purple;
     background: url('./images/backgroundimg.png');
+    background-size: cover;
 }
 
 header {
@@ -19,11 +20,15 @@ header {
     padding-top: 30px;
     padding-left: 100px;
     padding-right: 100px;
+    color: white;
 }
 
 .logo {
     border: solid black;
     font-size: 25px;
+    margin-left: 30px;
+    margin-right: 100px;
+    font-weight: bold;
 }
 
 .nav-bar {
@@ -38,10 +43,11 @@ header {
 .nav-bar li {
     border: solid black;
     display: inline;
+    margin: 0px 7px;
 }
 
 .nav-bar .login-register {
-    padding-left: 350px;
+    padding-left: 150px;
 }
 
 .login-register button {
@@ -107,11 +113,60 @@ header {
 
 /* END OF TITLE CONTENT  */
 
-.cards-container {
+
+/* .cards-container {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 25px;
+} */
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(1, 150px);
+    grid-template-areas: "card card card";
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 45px;
 }
 
-.card {}
+.card {
+    border: 1px solid black;
+    background: url('./images/icon-star.svg');
+    background-repeat: no-repeat;
+    background-position-x: 10%;
+    background-position-y: 15%;
+    background-color: #fff;
+}
+
+.cardcontent {
+    padding: 50px 20px 30px 30px;
+}
+
+.cardcontent h1 {
+    padding-bottom: 10px;
+}
+
+.satisfaction {
+    background-color: rgb(35, 166, 240);
+}
+
+
+/* END OF CARDS LAYERING ON BACKGROUND PHOTO */
+
+.main__mid-section {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 80px;
+}
+
+.mid-section-cards {
+    border: solid black;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 150px;
+}
