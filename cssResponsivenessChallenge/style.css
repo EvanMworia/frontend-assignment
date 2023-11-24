@@ -6,7 +6,7 @@
 
 button:hover {
     cursor: pointer;
-    background: scroll;
+    background: transparent;
 }
 
 .main {
@@ -124,11 +124,17 @@ header {
 .cards-container {
     display: grid;
     grid-template-columns: repeat(3, 300px);
-    grid-template-rows: repeat(1, 150px);
-    grid-template-areas: "card card card";
+    /* grid-template-rows: repeat(1, 150px); */
+    /* grid-template-areas: "card card card"; */
     justify-content: center;
     gap: 20px;
     padding-bottom: 45px;
+}
+
+@media (max-width: 600px) {
+    .cards-container {
+        grid-template-columns: 90vw;
+    }
 }
 
 .card {
@@ -167,9 +173,15 @@ header {
 
 .mid-section-cards {
     /* border: solid black; */
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     text-align: center;
     height: 150px;
+}
+
+@media (max-width: 600px) {
+    .main__mid-section {
+        flex-direction: column;
+    }
 }
 
 .industry-container {
@@ -189,6 +201,12 @@ header {
     align-items: center;
     justify-content: center;
     padding-top: 50px;
+}
+
+@media (max-width: 600px) {
+    .industry__cards-container {
+        flex-direction: column;
+    }
 }
 
 .industry__cards {
@@ -223,6 +241,14 @@ header {
     padding-top: 100px;
 }
 
+@media (max-width: 600px) {
+    .sponsors-container {
+        width: 600px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 .sponsors img {
     height: 43px;
     width: 60px;
@@ -235,6 +261,19 @@ header {
     justify-content: center;
     align-items: center;
     padding: 20px;
+}
+
+@media (max-width: 600px) {
+    .email-container {
+        width: 200px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .email__input {
+        width: 800px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 .email__input {
