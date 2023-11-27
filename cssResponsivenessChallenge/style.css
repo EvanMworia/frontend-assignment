@@ -365,7 +365,8 @@ header {
     background-color: rgb(35, 166, 240);
 }
 
-.branches-container {
+
+/* .branches-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -375,6 +376,112 @@ header {
 
 .appointment-form {
     display: flex;
+} */
+
+
+/* branches styles */
+
+.branchesContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #252b42;
+    padding: 50px;
+    color: #ffffffd8;
+    position: relative;
+    height: 80vh;
+}
+
+.branchesContainer img {
+    width: 30rem;
+    object-fit: cover;
+}
+
+.branches_content {
+    width: 30%;
+}
+
+.branchesContainer .form_container {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: -15rem;
+    display: flex;
+    gap: 1rem;
+    width: 45rem;
+    height: 30rem;
+    border-radius: 4px;
+}
+
+.form_container img {
+    width: 15rem;
+    height: 100%;
+}
+
+.form_container button {
+    padding: 12px;
+    width: 90%;
+    border-radius: .2rem;
+}
+
+.form_container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    color: #1d233b;
+    width: 90%;
+    padding-top: 50px;
+}
+
+.form_container form h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.form_container .input_group {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.form_container label {
+    font-weight: bold;
+}
+
+.form_container label::after {
+    content: "*";
+}
+
+.form_container .input_group input,
+.form_container .input_group select {
+    padding: 10px;
+    width: 100%;
+    background-color: #cccccca2;
+    border: 1px solid #cccccccc;
+    border-radius: 3px;
+    color: rgba(0, 0, 0, 0.452);
+}
+
+.contact_Aurgency {
+    position: absolute;
+    bottom: -30rem;
+    width: 100%;
+    margin-bottom: 4rem;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #1d233b;
+}
+
+.contact_Aurgency .btn_contact_us {
+    padding: 10px 30px;
+    background-color: #23a6f0;
+    border: none;
+    border-radius: .2rem;
+    color: white;
+    font-weight: bold;
+    font-size: large;
 }
 
 
